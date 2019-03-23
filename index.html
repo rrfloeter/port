@@ -23,6 +23,9 @@
                 <nav class="indigo darken-4">
                     <div class="nav-wrapper">
                         <ul class="right hide-on-med-and-down">
+                            <li><a href="images/Rainer_R_Floeter_Resume.pdf">Resume</a></li>
+                            <li><a href="https://github.com/rrfloeter">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/rainer-floeter-15503568/">LinkedIn</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -37,8 +40,10 @@
         <div class="row"></div>
         <div class="row">
             <h5>
-                Full-Stack Web Developer & Freelance Crypto journalist based in Philadelphia, PA. Highly experienced
-                using software development life cycle and professional experience working in fintech.
+                Full-Stack Web Developer & Freelance Crypto journalist based in Philadelphia,
+                PA. Highly experienced
+                using software development life cycle and professional experience working in
+                fintech.
             </h5>
         </div>
         <div class="row">
@@ -49,12 +54,17 @@
                     <img src="images/MyPic.jpg" height="350" width="450">
                 </div>
             </div>
-            <h6>Technologies:</h6>
+            <h6>Skills:</h6>
             <div id="progress1">
                 <div class="col-md-4">
                     <p class="flow-text">
                         <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
+                            <div class="determinate" style="width: 80%"></div>
+                        </div>
+                    </p>
+                    <p class="flow-text">
+                        <div class="progress">
+                            <div class="determinate" style="width: 50%"></div>
                         </div>
                     </p>
                     <p class="flow-text">
@@ -69,14 +79,26 @@
                     </p>
                     <p class="flow-text">
                         <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
+                            <div class="determinate" style="width: 80%"></div>
                         </div>
                     </p>
-                    <p class="flow-text">
-                        <div class="progress">
-                            <div class="determinate" style="width: 70%"></div>
-                        </div>
-                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="Agile">
+                    Agile
+                </div>
+                <div id="JavaScript">
+                    JavaScript
+                </div>
+                <div id="HTML">
+                    HTML
+                </div>
+                <div id="CSS">
+                    CSS
+                </div>
+                <div id="SQL">
+                    SQL
                 </div>
             </div>
         </div>
@@ -88,7 +110,7 @@
             <div id="Button">
                 <a class="waves-effect indigo darken-4 btn-small"><i
                         class="material-icons left">arrow_drop_down</i>Click for
-                    Projects</a>
+                    Projects & Articles</a>
             </div>
         </div>
     </div>
@@ -363,6 +385,13 @@
     <div class="row"></div>
     <div class="row"></div>
     <div class="row"></div>
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Rainer R Floeter
+            </div>
+        </div>
+    </footer>
 
 
     <!--Buffer Rows-->
@@ -380,31 +409,18 @@
         $(window).scroll(function () {
             //test
             console.log($(window).scrollTop());
-
-            //hide boxes until scroll down is complete
-            if ($(window).scrollTop() >= 1028) {
-                $(".bar1").fadeIn();
-                $("#box1").fadeIn();
-                $("#box2").fadeIn();
-                $("#box3").fadeIn();
-            } else {
-                $(".bar1").hide();
-                $("#box1").hide();
-                $("#box2").hide();
-                $("#box3").hide();
-            }
         });
 
         //scroll happens when downbutton is hit
         $(function () {
             $("#Button").click(function () {
-                $("html, body").animate({ scrollTop: 1028 }, "slow");
+                $("html, body").animate({ scrollTop: 1198 }, "slow");
             });
 
             //combats the issue of the screen spazzing out when attempting to scroll back up or further down after hitting the arrow button
             $(window).scroll(function () {
                 var scroll = $('#scroll');
-                if ($(this).scrollTop() > 1028) {
+                if ($(this).scrollTop() > 1198) {
                     scroll.fadeIn('slow');
                 } else {
                     scroll.fadeOut('slow');

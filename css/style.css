@@ -42,6 +42,7 @@ h6 {
 
 #Button {
     margin-left: 70%;
+    font-family: 'Kalam';
 }
 
 #Projects {
@@ -63,3 +64,40 @@ h4 {
 .card {
     width: 165%;
 }
+
+#Agile {
+    margin-left: 97%;
+    margin-top: -24%;
+}
+
+#JavaScript {
+    margin-left: 97%;
+    margin-top: 3.1%;
+}
+
+#HTML {
+    margin-left: 97%;
+    margin-top: 3.1%;
+}
+
+#CSS {
+    margin-left: 97%;
+    margin-top: 3.1%;
+}
+
+#SQL {
+    margin-left: 97%;
+    margin-top: 3.1%;
+}
+
+.page-footer {
+   background-color: #1a237e;
+   font-family: 'Kalam';
+   text-align: center;
+}
+
+.nav-wrapper {
+    margin-right: 20%;
+    font-family: 'Kalam';
+}
+
