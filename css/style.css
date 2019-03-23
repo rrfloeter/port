@@ -8,3 +8,58 @@
     height:40px;
     overflow: hidden;
 }
+
+h5 {
+    font-family: 'Kalam';
+    color:#1a237e;
+}
+
+body {
+    background-color: #f1ead7;
+}
+
+.progress {
+    width: 50%;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.determinate {
+    color: #1a237e;
+
+}
+
+h6 {
+    margin-left: 45%;
+    margin-top: -34%;
+    font-family: 'Kalam';
+    color: #1a237e;
+}
+
+.flow-text1 {
+    margin-top: -2%;
+}
+
+#Button {
+    margin-left: 70%;
+}
+
+#Projects {
+    margin-left: -10%;
+}
+
+#Project_header {
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin-left: 43%;
+    color: #1a237e;
+}
+
+h4 {
+    margin-left: 35%;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #1a237e;
+}
+
+.card {
+    width: 165%;
+}
