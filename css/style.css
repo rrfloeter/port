@@ -13,6 +13,12 @@ h5 {
     color:#1a237e;
 }
 
+@media screen and (width: 768px) {
+    h5 {
+        width: 75%;
+    }
+}
+
 body {
     background-color: #f1ead7;
 }
@@ -35,6 +41,18 @@ h6 {
     color: #1a237e;
 }
 
+@media screen and (width: 1600px) {
+    h6 {
+        margin-top: -28%;
+    }
+}
+
+@media screen and (width: 1600px) {
+    h6 {
+        margin-top: -28%;
+    }
+}
+
 .flow-text1 {
     margin-top: -2%;
 }
@@ -44,9 +62,52 @@ h6 {
     font-family: 'Kalam';
 }
 
+@media screen and (width: 768px) {
+    #Button {
+        display: none;
+        visibility: hidden;
+    }
+}
+
 #Projects {
     margin-left: -6%;
 }
+
+@media screen and (width: 768px) {
+    #Projects {
+        margin-left: -45%;
+    }
+}
+
+@media screen and (width: 768px) {
+    #progress1 {
+        margin-left: -80%;
+        margin-top: -5%;
+
+    }
+}
+
+@media screen and (width: 768px) {
+    #skilltext {
+        margin-top: 65%;
+        margin-left: -80%;
+    }
+}
+
+@media screen and (width: 1920px) {
+    #skilltext {
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (width: 768px) {
+    .progress{
+        width: 30%;
+    }
+}
+
+
 
 #Project_header {
     font-family: 'Love Ya Like A Sister', cursive;
@@ -61,6 +122,14 @@ h4 {
     color: #1a237e;
 }
 
+@media screen and (width: 768px) {
+    h4 {
+        margin-left: 15%;
+    }
+}
+
+
+
 .card {
     width: 165%;
 }
@@ -71,7 +140,14 @@ h4 {
     height: 30px;
     width: 100px;
     background-color: #1a237e;
-    border-radius: 50%;
+    border-radius: 50%;   
+}
+
+@media screen and (width: 768px) {
+    #Agile {
+        margin-left: 58%;
+        margin-top: -43%;
+    }
 }
 
 #agileword {
@@ -89,6 +165,13 @@ h4 {
     border-radius: 50%;
 }
 
+@media screen and (width: 768px) {
+    #JavaScript {
+        margin-left: 58%;
+        margin-top: 5%;
+    }
+}
+
 #JavaScriptword {
     margin-left: 15%;
     color: white;
@@ -102,6 +185,14 @@ h4 {
     width: 100px;
     background-color: #1a237e;
     border-radius: 50%;
+}
+
+
+@media screen and (width: 768px) {
+    #HTML {
+        margin-left: 58%;
+        margin-top: 5%;
+    }
 }
 
 #HTMLWord {
@@ -119,6 +210,13 @@ h4 {
     border-radius: 50%;
 }
 
+@media screen and (width: 768px) {
+    #CSS {
+        margin-left: 58%;
+        margin-top: 5%;
+    }
+}
+
 #CSSWord {
     margin-left: 30%;
     color: white;
@@ -134,6 +232,13 @@ h4 {
     border-radius: 50%;
 }
 
+@media screen and (width: 768px) {
+    #SQL {
+        margin-left: 58%;
+        margin-top: 5%;
+    }
+}
+
 #SQLWord {
     margin-left: 35%;
     color: white;
@@ -146,9 +251,21 @@ h4 {
    text-align: center;
 }
 
+@media screen and (width: 768px) {
+    .page-footer{
+        margin-left: -220px;
+    }
+ }
+
 .nav-wrapper {
     margin-right: 20%;
     font-family: 'Kalam';
+}
+
+@media screen and (width: 768px) {
+    li {
+        margin-right: -20%;
+    }
 }
 
 
@@ -157,5 +274,12 @@ h4 {
     font-family: 'Love Ya Like A Sister', cursive;
     color: #1a237e;
 
+}
+
+@media screen and (width: 768px) {
+    #ProjectTag {
+        margin-left: 25%;
+        margin-top: -40%;
+    }
 }
 
